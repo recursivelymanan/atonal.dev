@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 
-  width: clamp(300px, 20vw, 900px);
+  width: clamp(300px, 20vw, 750px);
   justify-items: center;
   align-self: center;
   padding: 20px;
