@@ -1,12 +1,13 @@
 import { CiMail } from "react-icons/ci";
 
+import logo from "./assets/images/logo.svg";
 import styles from "./App.module.css";
 import Projects from "./components/Projects";
 
 const App = () => {
   return (
     <div className={styles.mainContainer}>
-      <img className={styles.image} src="src/assets/images/logo.svg" />
+      <img className={styles.image} src={logo} />
       <div className={styles.projectsList}>
         <span className={styles.label}>Products</span>
         <Projects />
